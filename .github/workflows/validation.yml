@@ -4,5 +4,4 @@ jobs:
   primerJob:
     steps:
       - name: primerPaso
-        uses: actions/checkout@v2
-        run: echo 'Imprimiendo $GITHUB_WORKSPACE'
+        run: echo 'Hello world'
