@@ -1,7 +1,7 @@
 name: primero
 on: [push]
 jobs:
-  name: primerJob
+  primerJob
   steps:
     - name: primerPaso
       uses: actions/checkout@v2
