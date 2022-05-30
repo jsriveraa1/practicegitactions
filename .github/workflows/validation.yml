@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: primerPaso
-        run: echo "Hello world"
+        uses: actions/checkout@v2
+        run: echo "Hello world $GITHUB_WORKSPACE"
