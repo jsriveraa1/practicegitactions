@@ -1,0 +1,8 @@
+name: primero
+on: [push]
+jobs:
+  name: primerJob
+  steps:
+    - name: primerPaso
+      uses: actions/checkout@v2
+      run: echo "Imprimiendo $GITHUB_WORKSPACE"
