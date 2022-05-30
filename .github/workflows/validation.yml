@@ -1,8 +1,7 @@
 name: primero
 on: [push]
 jobs:
-  primerJob
-    runs-on: ubuntu-latest
+  primerJob:
     steps:
       - name: primerPaso
         uses: actions/checkout@v2
