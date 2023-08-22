@@ -23,6 +23,7 @@ jobs:
         shell: bash
         env:
           RESULTADO: "paso dos"
+          PRUEBA_ENV: ""
         run: | 
           ls -al hello_world.sh
           chmod +x hello_world.sh
@@ -30,4 +31,6 @@ jobs:
           echo $RESULTADO
       - name: Validacion paso 2
         shell: bash
-        run: echo $RESULTADO
+        run: | 
+          echo $RESULTADO 
+          echo $PRUEBA_ENV
