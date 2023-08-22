@@ -23,7 +23,7 @@ jobs:
         shell: bash
         env:
           RESULTADO: "paso dos"
-          PRUEBA_ENV: ""
+          PRUEBA_ENV: "tres"
         run: | 
           ls -al hello_world.sh
           chmod +x hello_world.sh
