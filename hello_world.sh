@@ -6,7 +6,7 @@ pwd
 
 if grep -w "Hola" ./prueba/prueba.html ; then
     resultado= "Entro"
-    grep -w "Hola" ./prueba.html
+    grep -w "Hola" ./prueba/prueba.html
 fi
 
 
