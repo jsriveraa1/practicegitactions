@@ -20,4 +20,4 @@ jobs:
             echo "$FILE does not exist!"
           fi
       - name: Ejecución archivo bash
-        run: ./hello_world.sh
+        run: ls -al hello_world.sh
