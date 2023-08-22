@@ -4,9 +4,9 @@ echo "Hello world"
 
 pwd
 
-if grep -w "#<p>hola</p>" ./prueba/prueba.html ; then
+if grep -w "hola" ./prueba/prueba.html ; then
     resultado= "Entro"
-    grep -w "<p>hola</p>" ./prueba.html
+    grep -w "hola" ./prueba.html
 fi
 
 
