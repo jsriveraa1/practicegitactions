@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Check file existence
         env:
-          FILE: file.txt
+          FILE: prueba/prueba.html
         shell: bash
         run: |
           if [[ -f $FILE ]]; then
