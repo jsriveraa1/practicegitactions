@@ -6,7 +6,7 @@ pwd
 
 if grep -w "Hola" ./prueba/prueba.html ; then
     echo "entro uno"
-    export resultado="Entro"
+    export RESULTADO="Entro"
     grep -w "Hola" ./prueba/prueba.html
 fi
 
