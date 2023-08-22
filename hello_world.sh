@@ -6,7 +6,7 @@ pwd
 
 if grep -w "Hola" ./prueba/prueba.html ; then
     echo "entro uno"
-    echo "RESULTADO=Entro" >> $GITHUB_ENV
+    RESULTADO=Entro
     grep -w "Hola" ./prueba/prueba.html
 fi
 
