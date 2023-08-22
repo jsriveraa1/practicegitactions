@@ -22,9 +22,9 @@ jobs:
       - name: Ejecución archivo bash
         shell: bash
         env:
-          resultado: "paso dos"
+          RESULTADO: "paso dos"
         run: | 
           ls -al hello_world.sh
           chmod +x hello_world.sh
           ./hello_world.sh
-          echo $resultado
+          echo $RESULTADO
