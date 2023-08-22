@@ -29,8 +29,8 @@ jobs:
           chmod +x hello_world.sh
           ./hello_world.sh
           echo $RESULTADO
+          echo $PRUEBA_ENV
       - name: Validacion paso 2
         shell: bash
         run: | 
           echo $RESULTADO 
-          echo $PRUEBA_ENV
