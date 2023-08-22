@@ -15,6 +15,7 @@ jobs:
         run: |
           if [[ -f $FILE ]]; then
             echo "$FILE exists!"
+            grep 'Hola' $FILE
           else
             echo "$FILE does not exist!"
           fi
