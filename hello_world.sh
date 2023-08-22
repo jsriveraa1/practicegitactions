@@ -2,6 +2,6 @@
 
 echo "Hello world"
 
-echo pwd
+pwd
 
-echo cat ./prueba/prueba.html
+cat ./prueba/prueba.html
